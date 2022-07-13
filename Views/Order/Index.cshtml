@@ -1,0 +1,63 @@
+﻿@model IEnumerable<TestTaskForVersta24.Models.OrderModel>
+
+@{
+    ViewData["Title"] = "My Orders";
+}
+
+<h3>List of my Orders</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SendersCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SendersAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceiversCity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceiversAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoadWeight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PickUpDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SendersCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SendersAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiversCity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceiversAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoadWeight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PickUpDate)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

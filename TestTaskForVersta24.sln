@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskForVersta24", "TestTaskForVersta24.csproj", "{D8CCD2D2-F813-485C-96F0-667A5F268BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{07B42516-D144-4CB7-BB60-3B6EF317044F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F3B26F93-018E-4612-96C4-FF44DC7B6809}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{546B1FA0-AC44-43E2-8B78-FC3E5B687ED1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8CCD2D2-F813-485C-96F0-667A5F268BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8CCD2D2-F813-485C-96F0-667A5F268BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8CCD2D2-F813-485C-96F0-667A5F268BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8CCD2D2-F813-485C-96F0-667A5F268BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDBD6B4B-32EA-4BAF-90FF-55103009C514}
+	EndGlobalSection
+EndGlobal
