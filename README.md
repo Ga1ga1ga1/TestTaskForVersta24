@@ -1,9 +1,9 @@
 # TestTaskForVersta24
 
 Для создания приложения использовала:
-ASP.NET Core
-ASP.NET MVC
-Entity Framework Core
+ASP.NET Core,
+ASP.NET MVC,
+Entity Framework Core,
 PostgreSql
 
 1. Для запуска приложения установите резервную копию Базы Данных: дамп базы в виде sql-скрипта закрепила в корневой папке: orders_database_backup.sql
